@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #1e1e20;
+}
+
+@font-face {
+  font-family: 'IOS';
+  src: url('../../fonts/SF-Pro.ttf') format('truetype');
+}
+
+.gradient {
+  background: linear-gradient(to right, 
+    #6027b6 0.89%, 
+    #6b43af 23%, 
+    #6535b3 42.04%, 
+    #7a34e9 55.12%, 
+    #9456ff 71.54%, 
+    #8a4ec7 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.logo{
+  display: flex;
+  font-size: 80px;
+  font-family: 'IOS';
+  margin-left: 1000px;
+  margin-top: -330px;
+}
+
+.logo p1{
+  color: white;
+  font-weight: 500;
+}
+
+.logo p{
+  font-weight: 500;
+  z-index: 2;
+}
+
+.logo img{
+  width: 60px;
+  height: 50px;
+  margin-top: 38px;
+  margin-left: 10px;
+}
+
+.header{
+  margin-top: -440px;
+  font-size: 28px;
+  font-family: 'IOS';
+  display: flex;
+  color: white;
+}
+
+.header p1{
+  margin-left: 100px;
+}
+
+.header p{
+  margin-left: 640px;
+}
+
+.test{
+  margin-top: 300px;
+  font-family: 'IOS';
+  font-size: 70px;
+  color: white;
+  margin-left: 450px;
+  font-weight: 600;
+}
+.test p{
+  margin-top: -20px;
+}
+
+.manual{
+  margin-left: 59px;
+  width: 180px;
+  height: 55px;
+  border-radius: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  border-color: #432479;/* Remove a borda de foco */
+}
+
+.manual:hover {
+  background-color: #432479;
+  color: white;
+  cursor: pointer;
+  border-color: #432479;
+}
+
+
+
+
+.searchbar {
+  width: 610px; /* Define a largura da div searchbar para 600px */
+  position: relative;
+  z-index: 1;
+  margin-top: 15px;
+  margin-left: 950px;
+}
+
+.searchbar input {
+  width: 100%; /* Garante que o input ocupe toda a largura da div searchbar */
+  height: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 60px;
+  font-family: 'IOS';
+  font-size: 17px;
+}
+
+
+

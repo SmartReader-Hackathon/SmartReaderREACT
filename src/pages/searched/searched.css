@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #1e1e20;
+  }
+
+@font-face {
+    font-family: 'IOS';
+    src: url('../../fonts/SF-Pro.ttf') format('truetype');
+}
+
+.body .retangulo {
+    background-color: white;
+    position: fixed;
+    width: 1150px;
+    height: 120px;
+    margin-left: 400px;
+    margin-top: 100px;
+    border-radius: 20px;
+    overflow: hidden; /* Garante que o conteúdo adicional seja ocultado quando não expandido */
+    transition: height 0.5s ease; /* Adiciona uma transição suave no height */
+  }
+  
+.body .retangulo.expanded {
+    height: 300px; /* Ajuste conforme necessário para a altura expandida */
+    position: fixed;
+  }
+  
+.additional-content {
+    background-color: white;
+    padding: 20px;
+    color: #000; /* Cor do texto do conteúdo adicional */
+}
+  
+
+.header{
+    margin-top: -530px;
+    font-size: 28px;
+    font-family: 'IOS';
+    display: flex;
+    color: white;
+}
+
+.header img{
+    width: 20px;
+    height: 20px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.header input{
+    background-color: white;
+    border-radius: 60px;
+    border-color: #1e1e20;
+    width: 300px;
+    font-size: 16px;
+    font-family: 'IOS';
+    margin-left: 10px;
+}
+
+.header p1{
+    margin-left: 100px;
+}
+
+.header p{
+    margin-left: 640px;
+}
+
+.title{
+    display: flex;
+    font-size: 80px;
+    font-family: 'IOS';
+    margin-left: 720px;
+    margin-top: 170px;
+}
+
+.gradient {
+    background: linear-gradient(to right, 
+      #6027b6 0.89%, 
+      #6b43af 23%, 
+      #6535b3 42.04%, 
+      #7a34e9 55.12%, 
+      #9456ff 71.54%, 
+      #8a4ec7 100%);
+    background-clip: text;
+    color: transparent;
+}
+  
+
+.title p1{
+    color: white;
+    font-weight: 500;
+}
+
+.title p{
+    font-weight: 500;
+    margin-top: 1px;
+}
+
+.title img{
+    width: 60px;
+    height: 50px;
+    margin-top: 38px;
+    margin-left: 10px;
+}
+
+.body .retangulo{
+    background-color: white;
+    width: 1150px;
+    height: 120px;
+    margin-left: 400px;
+    margin-top: 100px;
+    border-radius: 20px;
+    
+}
+
+
+/* Restante do seu código CSS */
+
+.gradient-circle {
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,  #1e1e20, #3a075a);
+    clip-path: circle(50% at 50% 50%);
+    clip-path: inset(0 0 50% 0);
+    margin-left: 500px;
+}
