@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./home.css";
-import { logo, roxo } from "../../assets";
+import { logo } from "../../assets";
 import axios from "axios";
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
   const [edv, setedv] = useState("");
@@ -26,9 +28,12 @@ const Home = () => {
 
   return (
     <div className="container">
-      <div className="header">
+      <div className="hh">
         <p1>CaP/ETS</p1>
         <p>Hackathon 1.2024</p>
+        <Link to="/Cadastro">
+          <button className="new">New Register</button>
+        </Link>
       </div>
 
       <div className="test">
@@ -47,7 +52,7 @@ const Home = () => {
       <div className="searchbar">
         <input
           onChange={(e) => setedv(e.target.value)}
-          placeholder="    Search the EDV..."
+          placeholder=""
           onKeyDown={(e)=>handleKeyPress(e)}
         ></input>
         <h1></h1>

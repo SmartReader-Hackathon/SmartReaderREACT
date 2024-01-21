@@ -41,23 +41,6 @@
     color: white;
 }
 
-.header img{
-    width: 20px;
-    height: 20px;
-    margin-left: 400px;
-    margin-top: 10px;
-}
-
-.header input{
-    background-color: white;
-    border-radius: 60px;
-    border-color: #1e1e20;
-    width: 300px;
-    font-size: 16px;
-    font-family: 'IOS';
-    margin-left: 10px;
-}
-
 .header p1{
     margin-left: 100px;
 }
@@ -65,6 +48,25 @@
 .header p{
     margin-left: 640px;
 }
+
+.new{
+    margin-left: 500px;
+    align-items: center;
+    width: 210px;
+    height: 55px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    border-color: #432479;
+  }
+  
+  .new:hover {
+    background-color: #432479;
+    color: white;
+    cursor: pointer;
+    border-color: #432479;
+  }
 
 .title{
     display: flex;
@@ -114,15 +116,16 @@
     
 }
 
-
-/* Restante do seu código CSS */
-
-.gradient-circle {
-    width: 800px;
-    height: 800px;
-    border-radius: 50%;
-    background: linear-gradient(90deg,  #1e1e20, #3a075a);
-    clip-path: circle(50% at 50% 50%);
-    clip-path: inset(0 0 50% 0);
-    margin-left: 500px;
+/* styles.css */
+.retangulo {
+    font-size: 30px;
+    font-family: "IOS";
+    color: #000;
+    z-index: 1;
 }
+
+.mais .d{
+    font-size: 20px;
+    z-index: 2;
+}
+  

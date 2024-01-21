@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #1e1e20;
+  }
+
+@font-face {
+    font-family: 'IOS';
+    src: url('../../fonts/SF-Pro.ttf') format('truetype');
+}
+
+
+.cad{
+    margin-top: -130px;
+    font-size: 28px;
+    font-family: 'IOS';
+    display: flex;
+    color: white;
+}
+
+.cad p1{
+    margin-left: 100px;
+}
+
+.cad p{
+    margin-left: 640px;
+}
+
+.new{
+  margin-left: 500px;
+  align-items: center;
+  width: 210px;
+  height: 55px;
+  border-radius: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  border-color: #432479;
+}
+
+.new:hover {
+  background-color: #432479;
+  color: white;
+  cursor: pointer;
+  border-color: #432479;
+}
+
+
+.title{
+    display: flex;
+    font-size: 80px;
+    font-family: 'IOS';
+    margin-left: 720px;
+    margin-top: 90px;
+}
+
+.gradient {
+    background: linear-gradient(to right, 
+      #6027b6 0.89%, 
+      #6b43af 23%, 
+      #6535b3 42.04%, 
+      #7a34e9 55.12%, 
+      #9456ff 71.54%, 
+      #8a4ec7 100%);
+    background-clip: text;
+    color: transparent;
+}
+  
+
+.title p1{
+    color: white;
+    font-weight: 500;
+}
+
+.title p{
+    font-weight: 500;
+    margin-top: 1px;
+}
+
+.title img{
+    width: 60px;
+    height: 50px;
+    margin-top: 38px;
+    margin-left: 10px;
+}
+
+.cadastrando {
+    font-family: "IOS";
+    font-weight: 500;
+    color: #1e1e20;
+    margin-left: 770px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    height: 570px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.registration{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 10px;
+}
+  
+.label{
+    margin-top: 16px;
+    background-color: white;
+    color: #1e1e20;
+    font-size: 25px;
+}
+  
+.nome,
+.edvcadastro,
+.last,
+.doors {
+    width: 260px; /* Ajuste a largura conforme necessário */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    font-family: 'IOS';
+    font-size: 18px;
+    font-weight: 600;
+    color: #585858;
+}
+  
+.cada{
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.3s, color 0.3s;
+    border-color: #432479;
+    background-color: #432479;
+    color: white;
+}
+
+.cada:hover {
+    background-color: rgb(92, 190, 125);
+    color: black;
+    cursor: pointer;
+    border-color: rgb(92, 190, 125);
+  }
