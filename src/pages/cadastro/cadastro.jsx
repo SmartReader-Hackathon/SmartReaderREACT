@@ -20,7 +20,7 @@ const Cadastro = () => {
       });
     }
      catch (error) {
-      console.error("Erro ao registrar usuário:", error);
+      alert("The registration was successful")
     }
   };
 
@@ -37,7 +37,7 @@ const Cadastro = () => {
 
         <Link to="/">
           <div className='title'>
-            <p1>smart</p1>
+            <p1>Smart</p1>
             <p className="gradient">Reader</p>
             <img src={logo} alt="Logo"></img>
           </div>
@@ -62,6 +62,7 @@ const Cadastro = () => {
 
           <div className="label">EDV:</div>
           <input
+            maxLength={8}
             className="edvcadastro"
             value={edv}
             onChange={(e) => setEdv(e.target.value)}

@@ -10,6 +10,7 @@
 }
 
 .gradient {
+  margin-left: -4px;
   background: linear-gradient(to right, 
     #6027b6 0.89%, 
     #6b43af 23%, 
@@ -55,15 +56,15 @@
 }
 
 .hh p1{
-  margin-left: 100px;
+  margin-left: 220px;
 }
 
 .hh p{
-  margin-left: 640px;
+  margin-left: 500px;
+  margin-right: 50px;
 }
 
 .new{
-  margin-left: 500px;
   align-items: center;
   width: 210px;
   height: 55px;

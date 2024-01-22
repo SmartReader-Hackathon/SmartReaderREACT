@@ -33,24 +33,25 @@
 }
   
 
-.header{
-    margin-top: -530px;
+.start{
+    margin-top: -525px;
     font-size: 28px;
     font-family: 'IOS';
     display: flex;
     color: white;
 }
 
-.header p1{
-    margin-left: 100px;
+.start p1{
+    margin-left: 220px;
 }
 
-.header p{
-    margin-left: 640px;
+.start p{
+    margin-left: 500px;
+    margin-right: 50px;
 }
 
 .new{
-    margin-left: 500px;
+    margin-left: 400px;
     align-items: center;
     width: 210px;
     height: 55px;
@@ -116,7 +117,7 @@
     
 }
 
-/* styles.css */
+
 .retangulo {
     font-size: 30px;
     font-family: "IOS";
@@ -127,5 +128,49 @@
 .mais .d{
     font-size: 20px;
     z-index: 2;
+}
+
+.pesquisado{
+    display: flex;
+    background-color: white;
+
+}
+
+.body h1{
+    color: #1e1e20;
+    background-color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 39px;
+    margin-left: 35px;
+}
+
+.body h3{
+    font-size: 32px;
+    background-color: white;
+    color: #8b8b8b;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.body img{
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 31px;
+    width: 60px;
+    height: 60px;
+}
+
+.mais {
+    background-color: white;
+}
+
+.body h2{
+    font-size: 38px;
+    margin-left: 150px;
+    margin-top: 60px;
+    background-color: white;
+    color:#1e1e20;
+    font-weight: 500;
 }
   

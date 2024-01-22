@@ -19,15 +19,15 @@
 }
 
 .cad p1{
-    margin-left: 100px;
+    margin-left: 220px;
 }
 
 .cad p{
-    margin-left: 640px;
+    margin-left: 500px;
+    margin-right: 50px;
 }
 
 .new{
-  margin-left: 500px;
   align-items: center;
   width: 210px;
   height: 55px;
