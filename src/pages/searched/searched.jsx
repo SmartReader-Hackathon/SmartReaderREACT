@@ -47,7 +47,8 @@ const Searched = ({ props }) => {
           }
           {expanded && (
             <div className="mais">
-              <h2>Allowed Doors: {props.area}</h2>
+              <h2>Allowed Doors:</h2>
+              <h4>{props.area}</h4>
             </div>
           )}
         </div>

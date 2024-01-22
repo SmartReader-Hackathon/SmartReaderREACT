@@ -46,7 +46,7 @@
 }
 
 .start p{
-    margin-left: 500px;
+    margin-left: 530px;
     margin-right: 50px;
 }
 
@@ -163,6 +163,7 @@
 
 .mais {
     background-color: white;
+    display: flex;
 }
 
 .body h2{
@@ -172,5 +173,12 @@
     background-color: white;
     color:#1e1e20;
     font-weight: 500;
+}
+
+.body h4{
+    background-color: white;
+    margin-top: 69px;
+    color: #5c5c5c;
+    margin-left: 20px;
 }
   
