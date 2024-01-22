@@ -119,7 +119,8 @@
 .nome,
 .edvcadastro,
 .last,
-.doors {
+.doors,
+.id {
     width: 260px; /* Ajuste a largura conforme necessário */
     padding: 8px;
     border: 1px solid #ccc;
